@@ -3,4 +3,3 @@ keras
 numpy
 matplotlib
 opencv-python
-Pillow
