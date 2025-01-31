@@ -22,6 +22,7 @@ This project is a deep learning-based application for **fruit classification** u
 1. **train.py**
   - Loads the pretrained VGG16 model without its top layers.
   - Freezes the pretrained layers to retain the learned features.
+  - Dropout layers reduce overfitting and improve generalisation
   - Adds custom dense layers for a 15-class classification task.
   - Trains the model using data augmentation (ImageDataGenerator).
     
@@ -41,4 +42,4 @@ This project is a deep learning-based application for **fruit classification** u
 
 ---
 
-You can view the model in action in the provided video - "fruit_maturity_detection.mov
+You can view some real-time predictions from the model in the folder - "sample predictions"
